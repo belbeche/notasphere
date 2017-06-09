@@ -36,3 +36,22 @@ body {
 .menu:hover {
 	background-color: silver;
 }
+
+.case {
+	width: 100px;
+	margin-left: 50%;
+	margin-top: 50px;
+	text-align: center;
+	border-radius: 10px;
+	background-color: black;
+	color: white;
+}
+
+.bas {
+	background-color: black;
+	color: white;
+}
+
+.bas p {
+	border: 5px silver solid;
+}

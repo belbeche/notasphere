@@ -8,5 +8,6 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<script type="text/javascript" src="js/javascript.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<script type="js/jquery.js"></script>
 	</head>
 <body>
