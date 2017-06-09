@@ -1,5 +1,5 @@
 <div class="alert alert-info" role="alert">
-       <center> <strong>Développement en local &copy W.B</strong>. </center>
+       <center> <strong>De A à Z  - &copy W.B</strong>. </center>
       </div>
 <br/>
 <div class="container">
@@ -33,23 +33,23 @@ Dans les opérations complexes, une équipe dédiée sera mise en place pour tra
 	    </div><!-- /.col-sm-4 -->
     </div>
 </div>
-    <!--
-		<div class="col-lg-4">
-		  <h2>L'OFFICE</h2>
-		  <p class="text-danger">Informations: </p>
-		  <p><a class="btn btn-primary" href="#" role="button">En savoir plus &raquo;</a></p>
-		</div>
-
-		<div class="col-lg-4">
-		  <h2>Services</h2>
-		  	<p>Description: </p>
-		  	<p><a class="btn btn-primary" href="#" role="button">En savoir plus &raquo;</a></p>
-		</div>
-
-		<div class="col-lg-4">
-		  <h2>L'équipes</h2>
-		  	<p>Description:</p>
-		  	<p><a class="btn btn-primary" href="#" role="button">En savoir plus &raquo;</a></p>
-		</div>
+<!-- Proposition SERVICES -->
+<div class="container">
+	<div class="col-lg-4">
+	  <h2>Le conseil</h2>
+	  <p class="text-danger">Le Droit immobilier: </p>
+	  <p><a class="btn btn-primary" href="#" role="button">En savoir plus &raquo;</a></p>
 	</div>
-	-->
+
+	<div class="col-lg-4">
+	  <h2>Droit public</h2>
+	  	<p>Description: </p>
+	  	<p><a class="btn btn-primary" href="#" role="button">En savoir plus &raquo;</a></p>
+	</div>
+
+	<div class="col-lg-4">
+	  <h2>Droit des affaires</h2>
+	  	<p>Description:</p>
+	  	<p><a class="btn btn-primary" href="#" role="button">En savoir plus &raquo;</a></p>
+	</div>
+</div>

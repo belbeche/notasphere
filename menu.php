@@ -1,6 +1,9 @@
 <div class="container-fluide">
 	<div class="masthead">
 		<h1 class="text-muted">Notasphère</h1>
+		<div class="alert alert-info" role="alert">
+	    	<center> <strong>Visites/clicks : <?php include ('compteur.php');?> </strong>. </center>
+		</div>
 		<div class="container-fluid">
 			<head>
 				<h1 class="titre">Office notarial - 21</h1>

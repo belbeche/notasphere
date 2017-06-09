@@ -1,12 +1,14 @@
 <div class="container-fluide">
 	<div class="sous_footer">
-		<h2>Notaire de France</h2>
-		  	<a href="">Liens</a>
-		<h2>Adresse</h2>
-		  	<a href="">Liens</a>
-		<h2>Horraires</h2>
-		  	<a href="">Liens</a>
-		<h2>Sites</h2>
-		  	<a href="">Liens</a>
+		<div class="col-sm-4">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h3 class="panel-title">Notaire de France</h3>
+				</div>
+				<div class="panel-body">
+					<a href="">Liens</a>
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
