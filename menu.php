@@ -1,4 +1,4 @@
-<button class="menu">MENU</button>
+<button class="btn">MENU</button>
 <nav>
 	<ul class="nav">
 		<li class="sous_menu">L'étude</li>

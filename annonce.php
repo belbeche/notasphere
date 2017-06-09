@@ -2,15 +2,14 @@
 /*immoCOM*/
 $immo = 'VENTE - APPARTEMENT - MAISON/VIAGER';
 ?>
-<div class="annonce">
-	<aside>
-		<form action="" method="POST">
-			<input type="text" name="vente" placeholder="vente">
-			<input type="text" name="appartement" placeholder="appartement">
-			<input type="text" name="maison" placeholder="maison">
+	<aside class="annonce">
+		<form action="choix_biens" method="POST">
+			vente : <input type="image" name="vente" placeholder="vente"/>
+			appartement : <input type="image" name="appartement" placeholder="appartement"/>
+			maison : <input type="image" name="maison" placeholder="maison"/>
 		</form>
 	</aside>
-</div>
+
 
 <?php
 $choix = ['Vente','Appartement','Maison/viager'];

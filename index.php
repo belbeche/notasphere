@@ -7,10 +7,11 @@ include ('menu.php');
 		<h1 class="titre">Office notarial DIJON</h1>
 	</head>
 <?php 
-	require ('annonce.php');
-	require ('recherche.php');
+	//require ('annonce.php');
+	//require ('recherche.php');
 ?>
+<div>
 
-
+<script src="js/bootstrap.min.js"></script>
 <?php include ('footer.php'); ?>
 
