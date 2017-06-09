@@ -7,8 +7,9 @@
 		<title>Notaire DIJON(21)</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-		<script type="js/jquery.js"></script>
-		<script type="text/javascript" src="js/slider.js"></script>
+		<script src="js/jquery.js"></script>
         <link href="css/sequence-theme.basic.css" rel="stylesheet" media="all">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/nav.css">
 	</head>
 <body>

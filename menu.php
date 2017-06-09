@@ -1,19 +1,21 @@
-<button class="btn">MENU</button>
-<nav>
-	<ul class="nav">
-		<li class="sous_menu">L'étude</li>
-			<a href="l'etude.php">Les mission du notaire</a>
-			<a href="missions.php">Le Notaire</a>
-		<li class="sous_menu">Les missions</li>
-			<a href="missions.1.php">Le Notaire et la Famille</a>
-			<a href="missions.2.php">Le Notaire et l'immobilier</a>
-			<a href="missions.3.php">Le Notaire et le Patrimoine</a>
-			<a href="missions.4.php">Le Notaire et les entreprises</a>
-			<a href="missions.5.php">Liens utiles</a>
-		<li class="sous_menu">Annonce immobilière</li>
-			<a href="location.php">Location</a>
-			<a href="vente.php">Vente</a>
-		<li class="sous_menu">Contact</li>
-			<a href="contact.php"></a>
-	</ul>
-</nav>
+<div class="container-fluide">
+	<div class="masthead">
+		<h1 class="text-muted">Notasphère</h1>
+		<div class="container-fluid">
+			<head>
+				<h1 class="titre">Office notarial - 21</h1>
+				<h3 class="sous_titre">DUBOSSON Florian</h3>
+				<hr>
+			</head>
+		</div>
+		<nav>
+		  <ul class="nav nav-justified">
+		    <li class="active"><a href="index.php">L'étude</a></li>
+		    <li><a href="mission.php">Les missions</a></li>
+		    <li><a href="annonce.php">Annonce immobilière</a></li>
+		    <li><a href="contact.php">Contact</a></li>
+		  </ul>
+		  <li><span id="description"><a href="tel:03 80 44 95 80"> 03 80 44 95 80</a></span></li>
+		</nav>
+	</div>
+</div>

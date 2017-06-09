@@ -1,6 +1,6 @@
-			<hr>
-			<div>Post-footer</div>
-				<?php include ('bas.php');?>
-		<footer>&copy - Walid BELBECHE - FOOTER</footer>
+		<hr>
+		<footer class="footer">
+        		<p class="text-muted">&copy - Walid BELBECHE - FOOTER</p>
+		</footer>
 	</body>
 </html>

@@ -1,28 +1,14 @@
-<h2 class="office">DUBOSSON Florian</h2>
 <?php 
 include ('header.php');
-include ('menu.php');
-include ('slider.php');
-?>
+include ('menu.php');?>
 
-<div class="container-fluid">
-	<head>
-		<h1 class="titre">Office notarial DIJON</h1>
-		<hr>
-		<h3>Que voulez vous faire ? </h3>
-	</head>
-</div>
+<br/>
+<?php include ('slider.php'); ?>
 
-<div class="container-fluid">
-	
-</div>
-	
-<?php 
-	//require ('annonce.php');
-	//require ('recherche.php');
-?>
 <!-- Contenus principal  -->
 <?php include ('contenu.php');?>
+
+<!-- Fin INDEX -->
 
 <!-- Importations des scripts  -->
 
@@ -31,6 +17,9 @@ include ('slider.php');
 <script src="js/hammer.min.js"></script>
 <script src="js/sequence.min.js"></script>
 <script src="js/sequence-theme.basic.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="js/ie10-viewport-bug-workaround.js"></script>
 
+<?php include ('bas.php');?>
 <?php include ('footer.php'); ?>
 
