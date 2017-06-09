@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
     	<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Ajout d'une annonce</title>
+		<title>Listes des annonces disponibles </title>
 		<link rel="stylesheet" type="text/css" href="../css/style.css">
 		<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
 		<script src="../js/jquery.js"></script>
@@ -43,34 +43,17 @@
 	</div>
 </div>
 
-<!-- Page des annonces -->
+<!-- Affichages des annonces  -->
 <div class="container">
 	<div class="page-header">
-		<h1>Ajout d'une annonce</h1>
+		<h1>Visiter - Découvrir</h1>
 	</div>
-	<form action="ajout_sql.php" method="post">
-		<table>
-			<tr>
-				<td>Titre</td>
-				<td><input type="text" name="titre" class="form-control"/></td>
-			</tr>
-			<tr>
-				<td>Description</td>
-				<td><textarea type="text" name="description" class="form-control"></textarea></td>
-			</tr>
-			<tr>
-				<td>Prix</td>
-				<td><input type="text" name="prix" class="form-control"/></td>
-			</tr>
-			<tr>
-				<td></td>
-				<td><input type="submit" value="Sauvegarder" class="btn btn-danger"/> - <a href="">Revenir sur l'annonce</a></td>
-			</tr>
-		</table>
-	</form>
+
+	<!-- Ici les annonces  -->
+	<?php include ('listes.sql.php');?>
 </div> <!-- Fin container -->
 
-<!-- Ici les annonces  --> 
+ 
 
 
 
