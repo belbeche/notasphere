@@ -9,18 +9,30 @@ body {
 }
 
 .nav {
-	width: 150px;
 	list-style-type: none;
-	display: inline-block;
 	border: 1px solid;
 }
 
-.nav a {
-	display: inline-block;
-	margin-top: 10px;
+.nav ul {
+	margin-top: 20px;
 	display: none;
+	display: inline-block;
 }
 
-nav ul:hover a {
+.nav a {
+	display: none;
+	margin-left: 10px;
+}
+
+.nav:hover a {
 	display: block;
+}
+
+.menu {
+	width: 150px;
+	display: block;
+}
+
+.menu:hover {
+	background-color: silver;
 }
