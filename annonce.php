@@ -10,15 +10,15 @@ include ('menu.php');
 
 <br/><hr>
 
-<h3>Que voulez vous faire ? </h3>
+<h3>Type: </h3>
 	<form action="" method="POST">
 		<select class="form-control" >
-		  <option value="">L'étude et ces avantages</option>
-		  <option selected>Immobilier</option>
+		  <option value="">Location</option>
+		  <option selected>Vente</option>
 		  <input type="submit" value="Go" class="btn">
 		</select>
 	</form>
-	
+
 <?php 
 /*immoCOM*/
 $immo = 'VENTE - APPARTEMENT - MAISON/VIAGER';
