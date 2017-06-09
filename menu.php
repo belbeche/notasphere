@@ -15,7 +15,6 @@
 		    <li><a href="annonce.php">Annonce immobilière</a></li>
 		    <li><a href="contact.php">Contact</a></li>
 		  </ul>
-		  <li><span id="description"><a href="tel:03 80 44 95 80"> 03 80 44 95 80</a></span></li>
 		</nav>
 	</div>
 </div>

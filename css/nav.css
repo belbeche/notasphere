@@ -1,11 +1,4 @@
-.footer {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  margin-top: 40px;
-  border-top: 1px solid #eee;
-}
-
-/* Main marketing message and sign up button */
+/* Annonce IMMO + JUMBOTRON  */
 .jumbotron {
   text-align: center;
   background-color: transparent;
@@ -72,13 +65,13 @@
   }
 }
 
-/* Responsive: Portrait tablets and up */
+/* Responsive: Tablet mode portrait et plus */
 @media screen and (min-width: 768px) {
-  /* Remove the padding we set earlier */
   .masthead,
   .marketing,
   .footer {
     padding-right: 0;
     padding-left: 0;
+    z-index: 9999;
   }
 }
