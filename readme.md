@@ -7,7 +7,7 @@
 // Etape 4 - Logique du programme 
 // Etape 5 - Connexion utilisateur 
 // Etape 6 - Mise en place  
-// Etape 7 - Désign 
+// Etape 7 - DÃ©sign 
 // Etape 8 - SEO (ref)
 // Etape 9 - Mobile Friendly
 
