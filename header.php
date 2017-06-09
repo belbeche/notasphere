@@ -13,3 +13,4 @@
         <link rel="stylesheet" type="text/css" href="css/nav.css">
 	</head>
 <body>
+<?php include ('annonces/db.php'); ?>
