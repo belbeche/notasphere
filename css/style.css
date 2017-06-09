@@ -1,6 +1,6 @@
 body {
-	padding: 0;
-	background-color: white;
+	margin: 0;
+    padding: 0;
 }
 
 .titre {
@@ -41,7 +41,6 @@ body {
 	width: 100px;
 	margin-left: 50%;
 	margin-top: 50px;
-	text-align: center;
 	border-radius: 10px;
 	background-color: black;
 	color: white;
@@ -54,4 +53,11 @@ body {
 
 .bas p {
 	border: 5px silver solid;
+}
+
+div .services {
+	list-style-type: none;
+}
+.services li {
+	margin-top: 50px;
 }

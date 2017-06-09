@@ -10,41 +10,43 @@
 	<p>
 		Qu'es que Notasphère ? 
 	</p>
-	<ul>
-		<li>
-			<a href="#"></a>
+</article>
+<div class="container">
+	<ul class="services">
+		<li class="mission">
+			<a href="#">Service 1</a>
 		</li>
-		<li>
-			<a href="#"></a>
+		<li class="mission">
+			<a href="#">Service 2</a>
 		</li>
-		<li>
-			<a href="#"></a>
+		<li class="mission">
+			<a href="#">Service 3</a>
 		</li>
-		<li>
-			<a href="#"></a>
+		<li class="mission">
+			<a href="#">Service 4</a>
 		</li>
 	</ul>
-</article>
+</div>
 
 <div class="container">
 	<div class="case">Presentation OFFICE</div>
-		<p>
+		<span>
 			////////EN COURS//////////
-		</p>
+		</span>
 	<div class="case">Propositions Services</div>
-		<p>
+		<span>
 			////////EN COURS////////// 
-		</p>
+		</span>
 	<div class="case">Direction utilisateurs</div>
-		<p>
+		<span>
 			////////EN COURS//////////
-		</p>
+		</span>
 	<div class="case">L'équipes</div>
-		<p>
+		<span>
 			////////EN COURS//////////
-		</p>
+		</span>
 	<div class="case">Découvrir nos offres immo</div>
-		<p>
+		<span>
 			////////EN COURS//////////
-		</p>
+		</span>
 </div>
