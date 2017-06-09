@@ -1,0 +1,26 @@
+body {
+	padding: 0;
+	background-color: white;
+}
+
+.titre {
+	font-size: 40px;
+	text-align: center;
+}
+
+.nav {
+	width: 150px;
+	list-style-type: none;
+	display: inline-block;
+	border: 1px solid;
+}
+
+.nav a {
+	display: inline-block;
+	margin-top: 10px;
+	display: none;
+}
+
+nav ul:hover a {
+	display: block;
+}
