@@ -30,7 +30,7 @@ if ($numero>0) {
 		echo "<th>Titre</th>";
 		echo "<th>Description</th>";
 		echo "<th>Prix</th>";
-		echo "<th>Ajoute</th>";
+		echo "<th>Action</th>";
 	echo "</tr>";
 
 	while ($ligne = $stmt->fetch(PDO::FETCH_ASSOC)) {
