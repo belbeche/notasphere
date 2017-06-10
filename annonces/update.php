@@ -49,7 +49,7 @@
 		<h1>Mise à jour de l'annonce</h1>
 	</div>
 
-	<!-- Ici il y aura le code PHP / PAGE QUI REDIRIGE   --> 
+	<?php include ('update.sql.php'); ?>
 
 </div> <!-- Fin container -->
 
