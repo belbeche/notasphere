@@ -64,7 +64,7 @@
 			</tr>
 			<tr>
 				<td></td>
-				<td><input type="submit" value="Sauvegarder" class="btn btn-danger"/> - <a href="">Revenir sur l'annonce</a></td>
+				<td><input type="submit" value="Sauvegarder" class="btn btn-danger"/> - <a href="listes.php">Revenir sur l'annonce</a></td>
 			</tr>
 		</table>
 	</form>
