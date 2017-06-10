@@ -32,9 +32,9 @@ if ($_POST) {
 			// Exécutions de la request 
 
 			if ($stmt->execute()) {
-				echo "<div class='alert alert-success'>L'annonce as bien été ajouté.</div>";
+				echo "<div class='alert alert-success'>L'annonce as bien été ajoutée.</div>";
 			}else{
-				echo "<div class='alert alert-danger'>Impossible d'ajouté l'annonce. </div>";
+				echo "<div class='alert alert-danger'>Impossible d'ajouter l'annonce. </div>";
 			}
 		}
 		// Affichage des erreurs 

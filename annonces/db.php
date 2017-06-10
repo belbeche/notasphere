@@ -25,9 +25,9 @@ catch(PDOException $exception) {
 
 // Connexion serveur 
 
-$host = "db685717598.db.1and1.com";
-$base = "db685717598";
-$user = 'dbo685717598';
+$host = "db685731401.db.1and1.com";
+$base = "db685731401";
+$user = 'dbo685731401';
 $mdp = 'dubosson123';
 
 try {
