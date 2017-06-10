@@ -30,8 +30,8 @@
     </div>
 
     <ul rel="sequence" class="seq-pagination" role="navigation" aria-label="Pagination">
-        <li><a href="#step1" rel="step1" title="1">Powered by Sequence.js</a></li>
-        <li><a href="#step2" rel="step2" title="2">Create Unique Animated Themes</a></li>
-        <li><a href="#step3" rel="step3" title="3">Rapid Development of Step-Based Animated Applications</a></li>
+        <li><a href="#step1" rel="step1" title="1">Slide 1</a></li>
+        <li><a href="#step2" rel="step2" title="2">Slide 2</a></li>
+        <li><a href="#step3" rel="step3" title="3">Slide 3</a></li>
     </ul>
 </div>

@@ -3,6 +3,14 @@
 // On se connecte à notre BDD
 	include ('db.php');
 
+$action = isset($_GET['action']) ? $_GET['action'] : "";
+
+// Si redirections suite à une suppression 
+
+if ($action == 'supprime'){
+	echo "<div class='alert alert-success'>L'annonce a bien été enleve.</div>";
+}
+
 // On selectionne toutes les données 
 
 $query = "SELECT id, titre, description, prix FROM annonce ORDER BY id DESC";
@@ -26,7 +34,7 @@ if ($numero>0) {
 	// Creations du titre de la table 
 
 	echo "<tr>";
-		echo "<th>ID</th>";
+		echo "<th>Classement</th>";
 		echo "<th>Titre</th>";
 		echo "<th>Description</th>";
 		echo "<th>Prix</th>";
@@ -54,7 +62,7 @@ if ($numero>0) {
                     echo "<a href='update.php?id={$id}' class='btn btn-primary m-r-1em'>Modifier</a>";
  
                     // Suppression d'une annonce
-                    echo "<a href='#' onclick='delete_user({$id});'  class='btn btn-danger'>Supprime</a>";
+                    echo "<a href='#' onclick='supp_annonce({$id});'  class='btn btn-danger'>Supprime</a>";
 			echo "</td>";
 		echo "</tr>";
 	}

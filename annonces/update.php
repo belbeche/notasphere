@@ -48,9 +48,33 @@
 	<div class="page-header">
 		<h1>Mise à jour de l'annonce</h1>
 	</div>
-
+	<!-- On inclus la requete pour l'update --> 
 	<?php include ('update.sql.php'); ?>
+	<!-- Affichage de l'annonce courante avec les informations (sans requete) -->
 
+	<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"] . "?id={$id}");?>" method="post">
+		<table class='table table-hover table-responsive table-bordered '>
+			<tr>
+				<td>Titre: </td>
+				<td> <input type="text" name="titre" value="<?= htmlspecialchars($titre, ENT_QUOTES); ?>" class="form-control"/></td>
+			</tr>
+			<tr>
+				<td>Description: </td>
+				<td> <input type="text" name="description" value="<?= htmlspecialchars($description, ENT_QUOTES); ?>" class="form-control"/></td>
+			</tr>
+			<tr>
+				<td>Prix: </td>
+				<td> <input type="text" name="prix" value="<?= htmlspecialchars($prix, ENT_QUOTES); ?>" class="form-control"/></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<input type="submit" value="Confirmer" class="btn btn-primary"/>
+					<a href="listes.php">Revenir sur la sélection</a>
+				</td>
+			</tr>
+		</table>
+	</form>
 </div> <!-- Fin container -->
 
  

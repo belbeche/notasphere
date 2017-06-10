@@ -60,6 +60,20 @@
 <!-- Fin de page --> 
 <?php include ('../footer.php'); ?>
 
+<script type="text/javascript">
+
+function supp_annonce(id) {
+	var reponse = confirm('Êtes-vous sure de vouloir supprimer l\'annonce  ?'); 
+	
+	if(reponse){
+		// si l'utilisateur a cliquer sur OK
+		// on passe l'id au fichier sup.php pour exec la requete
+		window.location = 'sup.php?id=' + id;
+	}
+	
+}
+</script>
+
 <!-- Importations des scripts  -->
 
 <script src="../js/bootstrap.min.js"></script>

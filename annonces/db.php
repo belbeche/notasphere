@@ -9,7 +9,7 @@ $mdp = '';
 
 try {
 	$connexion = new PDO("mysql:host={$host};dbname={$base}", $user , $mdp);
-	echo 'Connexion OK';
+	
 }
 // Affichage des erreurs 
 catch(PDOException $exception) {
