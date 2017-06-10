@@ -59,20 +59,20 @@
 	try {
 
 		// preparation requete
-		$query = "SELECT id, titre, description, prix FROM annonce WHERE id = ?";
+		$query = "SELECT id, titre, description, prix FROM annonce WHERE id = ? LIMIT 0,1";
 		$stmt = $connexion->prepare($query);
 
-		// récuperations des données 
+		// On marque notre variable 
 
 		$stmt->bindParam(1, $id);
 
-		// Execution de la requete 
+		// Execution de la requete marqué 
 		$stmt->execute();
 
 		// sauvegarde de l'information dans une variable 
 		$ligne = $stmt->fetch(PDO::FETCH_ASSOC);
 
-		// Aperçus de l'annonce 
+		// Valeur pour la mise en forme de l'annonce 
 
 		$titre = $ligne['titre'];
 		$description = $ligne['description'];
@@ -84,26 +84,28 @@
 catch(PDOException $exception){
 	die('Erreur:' .$exception->getMessage());
 }
-
+	/*
+	* Ici on affiche les détails des annonces via leurs mise en forme 
+	*/
 ?>
 
 <table class='table table-hover table-responsaive table-bordered'>
 	<tr>
 		<td>Titre:</td>
-		<td><?php echo htmlspecialchars($titre, ENT_QUOTES);?></td>
+		<td><?= htmlspecialchars($titre, ENT_QUOTES);?></td>
 	</tr>
 	<tr>
 		<td>Description:</td>
-		<td><?php echo htmlspecialchars($description, ENT_QUOTES);?></td>
+		<td><?= htmlspecialchars($description, ENT_QUOTES);?></td>
 	</tr>
 	<tr>
 		<td>Prix:</td>
-		<td><?php echo htmlspecialchars($prix, ENT_QUOTES);?></td>
+		<td><?= htmlspecialchars($prix, ENT_QUOTES);?></td>
 	</tr>
 	<tr>
 		<td></td>
 		<td>
-			<a href="listes.php" class="btn btn-danger">Revenir sur la sélection</a>
+			<a href="listes.php" class="btn btn-primary">Revenir sur la sélection</a>
 		</td>
 	</tr>
 
