@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
     	<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Listes des annonces disponibles </title>
+		<title>Listes des annonces disponibles - 21 </title>
 		<link rel="stylesheet" type="text/css" href="../css/style.css">
 		<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
 		<script src="../js/jquery.js"></script>
@@ -21,7 +21,7 @@
 
 <div class="container-fluide">
 	<div class="masthead">
-		<h1 class="text-muted">Notasphère</h1>
+		<h1 class="text-muted" src="img/logo.png">Notasphère</h1>
 		<div class="alert alert-alert" role="alert">
 	    	<center> <strong>Annonces : IMMO </strong>. </center>
 		</div>
@@ -32,33 +32,49 @@
 				<hr>
 			</head>
 		</div>
-		<nav>
-		  <ul class="nav nav-justified">
-		    <li class="active"><a href="../index.php">L'étude</a></li>
-		    <li><a href="../mission.php">Les missions</a></li>
-		    <li><a href="../annonce.php">Annonce immobilière</a></li>
-		    <li><a href="../contact.php">Contact</a></li>
-		  </ul>
-		</nav>
+		<ol class="breadcrumb">
+			<li><a href="../index.php">L'étude</a></li>
+			<li><a href="../mission.php">Les missions</a></li>
+			<li><a href="../contact.php">Contact</a></li>
+		</ol>
 	</div>
 </div>
+
+<div class="container-fluide">
+	<div class="jumbotron">
+		<h1>Trouvez votre bien immobilier</h1>
+		<p>VENTE - APPARTEMENT - MAISSON/VIAGER</p>
+		<hr>
+		<p class="text-muted"> ICI : Formulaire de recherche</p>
+	</div>
+</div>
+
+<!--<nav>
+<ul class="nav nav-justified">
+<li class="active"><a href="../index.php">L'étude</a></li>
+<li><a href="../mission.php">Les missions</a></li>
+<li><a href="../annonce.php">Annonce immobilière</a></li>
+<li><a href="../contact.php">Contact</a></li>
+</ul>
+</nav>-->
 
 <!-- Affichages des annonces  -->
 <div class="container">
 	<div class="page-header">
 		<h1>Visiter - Découvrir</h1>
 	</div>
-
 	<!-- Ici les annonces  -->
+
 	<?php include ('listes.sql.php');?>
 </div> <!-- Fin container -->
 
  
 
+<!-- Debut Footer -->
 
+<?php include ('../footer.php'); ?>
 
 <!-- Fin de page --> 
-<?php include ('../footer.php'); ?>
 
 <script type="text/javascript">
 
